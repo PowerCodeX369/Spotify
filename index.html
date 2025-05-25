@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beat Flare</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utilities.css" />
+</head>
+
+<body>
+    <nav class="flex justifycenter flexrow">
+        <img class="hamburger"id='hamburger' src="data/hamburger.png" alt="hamburger" width="35px" height="30px">
+        <img src="data/logo.png" alt="logo" class="logo" />
+    </nav>
+    <div class="container flex flexrow justifycenter">
+        <div class="containerleft">
+            
+            <div class="library">
+                <div class="libinternal">
+                    <ul class="flex flexrow">
+                        <li class="flex flexrow">
+                            <img src="data/Songs.png" alt="Albums" width="34px" /> Songs
+                        </li>
+                        
+                    </ul>
+                    <div class="songlist">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="home">
+                <ul>
+                    <li class="flex">
+                        <img src="data/home-icon.png" alt="Home" width="25px" /> Home
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="containerright">
+            <div class="containerright-wrapper">
+                <div class="internalright">
+                    <div class="header">
+                        <ul>
+                            <li class="flex">
+                                <img src="data/Playlist-icon.png" alt="Albums" width="35px" height="32px" />Albums
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="playlist flex flexrow" id="cardContainer">
+                    </div>
+                </div>
+            </div>
+            <div class="playbox grid">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                    <div class="played"></div>
+                </div>
+                <div class="songinfo flex flexrow">
+                </div>
+                <div class="playerbuttons">
+                    <img id="previous" src="data/previous-player.png" alt="previous" width="28px" />
+                    <img id="play" src="data/play-player.png" alt="pause" width="35px" />
+                    <img id="next" src="data/next-player.png" alt="next" width="28px" />
+                </div>
+                <div class="volume">
+                    <img src="data/volume.png" alt="volume" width="28px">
+                    <div class="volumebar">
+                        <div class="vol-circle"></div>
+                        <div class="totalvolume"></div>
+                    </div>
+                </div>
+                <div class="currenttime"></div>
+                <div class="totaltime"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

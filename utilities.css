@@ -1,0 +1,22 @@
+.border{
+    border: 2px solid red;
+}
+
+.flex{
+    display: flex;
+}
+.justifycenter{
+    justify-content: center;
+}
+.itemcenter{
+    align-items: center;
+}
+.flexrow{
+    flex-direction:row;
+}
+.flexcol{
+    flex-direction:column;
+}
+.spacebetween{
+    justify-content: space-between;
+}
